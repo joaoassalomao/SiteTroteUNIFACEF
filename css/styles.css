@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0; /* espaçamento externa da página */
+    padding: 0; /* espaçamento interno da página */
+    background-color: #02005f;
+    text-align: center; /* texto centralizado */
+}
+header {
+    background-color: #02005f;
+    color: white;
+    padding: 15px 0px; /* 15px (espaçamento interno acima e abaixo) e 0 px (direita e esquerda)*/
+    font-size: 24px;
+}
+nav {
+    background: #dca100;
+    padding: 10px; /* Espaçamento interno do menu */
+    display: flex; /* Flex boxing */
+    justify-content: space-between; /* Espaço entre os elementos do menu */
+    align-items: center; /* Alinhamento na vertil */
+}
+#links-menu{
+    display: flex;
+    gap: 15px; /* Distância entre os itens do menu */
+    padding: 20px; /*Espaçamento a esquerda*/
+}
+nav a { /* Configura os links do menu */
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    font-size: 18px;
+    background: #02005f;
+    border-radius: 5px;
+}
+
+img {
+    width: 120px;
+    min-height: auto;
+    margin-right: 20px; /*espaçamento a direita */
+    border-radius: 10px; /*arredondar cantos da imagem*/
+}
+
+.container {
+    width: 80%; /*Largura de 80% da largura da página */
+    background: #ffffff;
+    border-radius: 10px;
+    /*espaçamento externo 20px acima e abaixo */
+    /*espaçamento externo à direita e à esquerda */
+    margin: 20px auto;
+    padding: 20px; /*espaçamento interno */
+    text-align: justify;
+}
