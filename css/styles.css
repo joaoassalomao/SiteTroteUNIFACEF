@@ -10,6 +10,7 @@ header {
     color: white;
     padding: 15px 0px; /* 15px (espaçamento interno acima e abaixo) e 0 px (direita e esquerda)*/
     font-size: 24px;
+    
 }
 nav {
     background: #dca100;
@@ -30,6 +31,8 @@ nav a { /* Configura os links do menu */
     font-size: 18px;
     background: #02005f;
     border-radius: 5px;
+    cursor: pointer;
+    
 }
 
 img {
@@ -49,3 +52,9 @@ img {
     padding: 20px; /*espaçamento interno */
     text-align: justify;
 }
+
+nav a:hover {
+    background-color: #ffffff;
+    color: #02005f;
+}
+
