@@ -58,3 +58,6 @@ nav a:hover {
     color: #02005f;
 }
 
+ol li {
+    padding-bottom: 10px;
+}
